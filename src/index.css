@@ -3,7 +3,26 @@
 @tailwind utilities;
 
 @layer base {
-  html, body {
-    font-family: 'Roboto', sans-serif;
+  html,
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@layer components {
+  .menu__li {
+    @apply relative py-3 px-1 cursor-pointer border-b-2 border-white hover:border-navy-blue-900;
+  }
+  .submenu {
+    @apply absolute hidden w-max bg-white border border-gray-400 top-[50px];
+  }
+  .submenu-right {
+    @apply absolute hidden w-max bg-white border border-gray-400 top-0 left-full;
+  }
+  .submenu__li {
+    @apply py-2 px-3 border-b border-gray-400 relative;
+  }
+  .submenu__li:last-child {
+    @apply border-none;
   }
 }
