@@ -3,9 +3,9 @@
 Menu para novopayment
 
 
-## Installación
+## Instalación
 
-Intalar proyecto con npm.
+Instalar proyecto con npm.
 
 ```bash
   npm install novopayment
