@@ -1,0 +1,29 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "card_list": [],
+        "pays_transfer": [
+          {
+            "between_cards": [],
+            "banks": [],
+            "credit_card": [
+              {
+                "visa": [],
+                "master_card": []
+              }
+            ]
+          }
+        ],
+        "support": [
+          {
+            "lock": [],
+            "change_pass": []
+          }
+        ],
+        "enterprises": []
+      }
+    ]
+  }
+}
