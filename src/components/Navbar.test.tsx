@@ -19,16 +19,18 @@ describe("Navbar", () => {
     render(<Navbar />);
     screen.getByRole("nav");
   });
-
+  
   it("should be exists data element into data", () => {
     expect(data).not.toBe(undefined);
   });
-
+  
   it("should be exist list element in data", () => {
     expect(list).not.toBe(undefined);
   });
-
-  it("should render nav options", () => {
-    expect(true).toBe(true);
+  
+  it("should render first nav option using the real api into component", async() => {
+    render(<Navbar />);
+    await screen.findByText("Lista de tarjetas")
+    //screen.debug();
   });
 });
